@@ -1,0 +1,98 @@
+/*MENU*/
+body{
+    background-image: linear-gradient(to right, rgb(216, 21, 21), rgb(80, 21, 21));
+}
+
+.container{
+    width: 100%;
+    height: 900px; 
+    margin: auto;
+    text-decoration: none;
+}
+
+
+#menu{
+    width: 100%;
+    height: 120px;
+    text-align: center;  
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 40px;
+}
+
+#menu ul li a{
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    color: white
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+#vinha{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+/*CONTATO*/
+.email{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#a_email{
+    color: white;
+    text-decoration: none;
+}
+
+#c_email{
+    font-size: 15px;
+}
+
+/*QUIZ*/
+#quiz{
+    text-indent: 10px;
+    display:none;
+}
+
+.button{
+    border:4px solid;
+    border-radius:5px;
+    width: 60px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+    text-align: center;
+}
+
+/*SOBRE*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.sobrepag{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 28px;
+    padding: 4px;
+}
+
+#vsobre{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 0;
+}
