@@ -27,7 +27,42 @@
 
 
 
-
+        <script>
+           const L = []
+            var p1 = prompt('O vinho Pérgola é o mais comprado no Brasil. Insira V para Verdadeiro e F para Falso.');/*VERDADEIRO*/ 
+            var p2 = prompt('Você não encontra vinhos abaixo de R$200,00. Insira V para Verdadeiro e F para Falso.');/*FALSO*/
+            var p3 = prompt('A marca Gallo é a número 1 de vendas anuais. Insira V para Verdadeiro e F para Falso.');/*VERDADEIRO*/    
+            var p4 = prompt('Existem mais de quatro tipos de vinhos no mundo. Insira V para Verdadeiro e F para Falso.');/*VERDADEIRO*/
+            var p5 = prompt('O tempo de fermentação do vinho não altera o sabor do mesmo. Insira V para Verdadeiro e F para Falso.');/*FALSO*/
+            var p6 = prompt('O tempo exato em que as uvas são colhidas não interefere no sabor do vinho. Insira V para Verdadeiro e F para Falso.');/*FALSO*/
+            var p7 = prompt('Os profissionais analistas de vinhos são chamados de "Sommeliers". Insira V para Verdadeiro e F para Falso.');/*VERDADEIRO*/
+            var p8 = prompt('O vinho é servido em copos tradicionais. Insira V para Verdadeiro e F para Falso.');/*FALSO*/
+            var p9 = prompt('Vinhos geralmente combinam com queijos. Insira V para Verdadeiro e F para Falso.');/*VERDADEIRO*/
+            var p10 = prompt('O teor alcóolico do vinho é de 18%. Insira V para Verdadeiro e F para Falso.'); /*VERDADEIRO*/
+            if(p1 == 'v'  || p1 =='V'){
+                L.push(p1)
+            }if(p2 == 'f' || p2 == 'F'){
+                L.push(p2)
+            }if(p3 == 'v' || p3 == 'V'){
+                L.push(p3)
+            }if(p4 == 'v' || p4 == 'V'){
+                L.push(p4)
+            }if(p5 == 'f' || p5 =='F'){
+                L.push(p5)
+            }if(p6 == 'f' || p6 =='F'){
+                L.push(p6)
+            }if(p7 == 'v' || p7 == 'V'){
+                L.push(p7)
+            }if(p8 == 'f' || p8 =='F'){
+                L.push(p8)
+            }if(p9 == 'v' || p9 =='V'){
+                L.push(p9)
+            }if(p10 == 'v' || p10 =='v'){
+                L.push(p10)
+            }
+            pontuacao = L.length
+            document.write('Obrigado por responder! A sua nota foi ' +pontuacao+ '!')
+        </script>
     </div>
 
 
