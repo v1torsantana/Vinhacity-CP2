@@ -40,27 +40,41 @@
             var p10 = prompt('O teor alcóolico do vinho é de 18%. Insira V para Verdadeiro e F para Falso.'); /*VERDADEIRO*/
             if(p1 == 'v'  || p1 =='V'){
                 L.push(p1)
-            }if(p2 == 'f' || p2 == 'F'){
+            }
+            if(p2 == 'f' || p2 == 'F'){
                 L.push(p2)
-            }if(p3 == 'v' || p3 == 'V'){
+            }
+            if(p3 == 'v' || p3 == 'V'){
                 L.push(p3)
-            }if(p4 == 'v' || p4 == 'V'){
+            }
+            if(p4 == 'v' || p4 == 'V'){
                 L.push(p4)
-            }if(p5 == 'f' || p5 =='F'){
+            }
+            if(p5 == 'f' || p5 =='F'){
                 L.push(p5)
-            }if(p6 == 'f' || p6 =='F'){
+            }
+            if(p6 == 'f' || p6 =='F'){
                 L.push(p6)
-            }if(p7 == 'v' || p7 == 'V'){
+            }
+            if(p7 == 'v' || p7 == 'V'){
                 L.push(p7)
-            }if(p8 == 'f' || p8 =='F'){
+            }
+            if(p8 == 'f' || p8 =='F'){
                 L.push(p8)
-            }if(p9 == 'v' || p9 =='V'){
+            }
+            if(p9 == 'v' || p9 =='V'){
                 L.push(p9)
-            }if(p10 == 'v' || p10 =='v'){
+            }
+            if(p10 == 'v' || p10 =='v'){
                 L.push(p10)
             }
             pontuacao = L.length
-            document.write('Obrigado por responder! A sua nota foi ' +pontuacao+ '!')
+            if(pontuacao == 0){
+                window.alert('Insira valores corretos!')
+            }            
+            document.write('Obrigado por responder! A sua nota foi: ' +pontuacao+ '!')
+
+
         </script>
     </div>
 

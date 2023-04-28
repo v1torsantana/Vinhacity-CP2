@@ -20,12 +20,12 @@
         </nav>
 
         <main class="infos">
-            Insira o seu nome: <input id="nome" type="text"><br>
-            Insira o seu telefone: <input id="telefone" type="number"><br>
-            Insira o seu email: <input id="email" type="text"><br>
-            <input type="button" value="Enter" onclick="boasvindas()">
+            Insira o seu nome:      <input type="text" name="name" id="name"><br>
+            Insira o seu telefone:  <input id="telefone" type="number"><br>
+            Insira o seu email:     <input id="email" type="text"><br>
+                                    <input type="button" value="Enter" onclick="boasvindas()">
         </main>
-        <p class="p_a_email">Email: <a id="a_email" href="mailto:vinhacity@gmail.com?subject=Assunto do email">vinhacity@gmail.com</a></p>
+        <p class="p_a_email">Email: <a id="a_email" href="https://mail.google.com" target="_blank">vinhacity@gmail.com</a></p>
         <p id="c_email">(clique no email para ser redirecionado)</p>
         <p class="p_a_telefone">Telefone: (11) 97217-8418</p>
 
@@ -34,16 +34,16 @@
 
 
     <script>
-        var nome = document.getElementById('nome').value;
-        var telefone = document.getElementById('telefone').value;
-        var email = document.getElementById('email').value;
+        var nome = document.querySelector('#name')
+        var telefone = document.querySelector('#telefone')
+        var email = document.querySelector('#email')
         function boasvindas(){
-            document.write('seja bem vindo, ' +nome+ ' !');
-        }
+            document.write('Seu nome é: ' +nome+ ', de telefone ' +telefone+ ' e email ' +email)
+            }
+        
     </script>
 
-    <script src="script.js"></script>
-    <footer>@2023- Todos os direitos reservados.</footer>
   <script src="script.js"></script>
+    <footer>@2023- Todos os direitos reservados.</footer>
 </body>
 </html>

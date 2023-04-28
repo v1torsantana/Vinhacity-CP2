@@ -113,3 +113,26 @@ footer{
     text-align: center;
     align-items: center;
 }
+
+#buttons{
+    margin-top: 25%;
+    height: 30px;
+    width: 20px;
+}
+
+#bred{
+    background-color: red;
+    color: white;
+}
+
+#bgreen {
+    background-color: green;
+    color: white;
+}
+
+#bblue{
+    background-color: blue; 
+    color: white;
+
+}
+

@@ -22,10 +22,38 @@
             <p id="vinha">VinhaCity</p>
         </main>
 
+        <div id="buttons">
+                    <button id="bred">Red Background</button><br><br>
+                    <button id="bgreen">Green background</button><br><br>      
+                    <button id="bblue">Blue background</button><br><br>
+            
+        </div>
 
 
     </div>
 
+    <script>
+        let bred = document.getElementById('bred')
+        let bgreen = document.getElementById('bgreen')
+        let bblue = document.getElementById('bblue')
+
+
+        bred.addEventListener('click', () => {
+            document.body.style.background = 'red'
+        })
+
+        bgreen.addEventListener('click', () => {
+            document.body.style.background = 'green'
+        })
+
+        bblue.addEventListener('click', () => {
+            document.body.style.background = 'blue'
+        })
+
+
+
+
+    </script>
 
     <footer>@2023- Todos os direitos reservados.</footer>
   <script src="script.js"></script>
