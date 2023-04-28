@@ -1,6 +1,6 @@
 /*MENU*/
 body{
-    background-image: linear-gradient(to right, rgb(216, 21, 21), rgb(80, 21, 21));
+    background-image: linear-gradient(to right, rgb(73, 8, 8), rgb(216, 21, 21), rgb(70, 18, 18));
 }
 
 .container{
@@ -44,13 +44,15 @@ footer{
     color: white;
     font-size: 80px;
     text-align: center;
+    border: 2px white solid;
 }
 
 /*CONTATO*/
-.email{
+.infos{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    border: 1px solid rgb(250, 195, 195);
 }
 
 #a_email{
@@ -58,8 +60,16 @@ footer{
     text-decoration: none;
 }
 
+.p_a_email{
+    color:white;
+}
 #c_email{
     font-size: 15px;
+    color: white;
+}
+
+.p_a_telefone{
+    color: white;
 }
 
 /*QUIZ*/
@@ -95,4 +105,11 @@ footer{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     margin-top: 0;
+}
+
+
+.psobre{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
 }
